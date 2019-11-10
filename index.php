@@ -39,6 +39,7 @@
                 <div id="sectionClubs">
                     <div id="searchBar">
                         <h1>Search club</h1>
+                        <img src="image/loupe.png" alt="">
                     </div>
                     <div class="Rectangle"></div>
                     <div id="blocLogos">

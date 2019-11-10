@@ -24,7 +24,7 @@ body {
 #moitiePageGauche {
     width: 1440px;
   height: 800px;
-  background-color: var(--white);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .rectSelect {
         width: 41px;
@@ -34,15 +34,13 @@ body {
         border-bottom: solid 8px green;
 }
 #sectionClubs {
-    width: 960px;
     height: 672px;
     border-radius: 20px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     background-color: var(--white);
 }
 #searchBar {
-    padding-top: 80px;
-    width: 316px;
+  padding-top: 80px;
   height: 64px;
   font-family: Roboto;
   font-size: 60px;
@@ -53,10 +51,17 @@ body {
   letter-spacing: normal;
   color: var(--very-light);
   color: grey;
+  display: flex;
+    justify-content: space-between;
+}
+#searchBar img {
+    height: 32px;
+    width: 32px;
+    align-self: flex-end;
 }
 
 .Rectangle {
-    width: 800px;
     height: 1px;
-    background-color: var(--very-light);
+    margin-top: 16px;
+    background-color: grey;
   }
