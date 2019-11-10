@@ -1,0 +1,62 @@
+body {
+    
+}
+.wrap {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#containerPage {
+    display: flex;
+}
+#selectionLeague {
+    display: flex;
+    padding-top: 42px;
+}
+.league {
+    width: 42px;
+    height: 92px;
+    object-fit: contain;
+    background-color: var(--minty-green);
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+#moitiePageGauche {
+    width: 1440px;
+  height: 800px;
+  background-color: var(--white);
+}
+.rectSelect {
+        width: 41px;
+        height: 8px;
+        margin-top: 24px;
+        background-color: var(--minty-green);
+        border-bottom: solid 8px green;
+}
+#sectionClubs {
+    width: 960px;
+    height: 672px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--white);
+}
+#searchBar {
+    padding-top: 80px;
+    width: 316px;
+  height: 64px;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: var(--very-light);
+  color: grey;
+}
+
+.Rectangle {
+    width: 800px;
+    height: 1px;
+    background-color: var(--very-light);
+  }
