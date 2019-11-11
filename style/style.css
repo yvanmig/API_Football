@@ -2,8 +2,8 @@ body {
     
 }
 .wrap {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7.5%;
+    margin-right: 6.1%;
 }
 #containerPage {
     display: flex;
@@ -23,7 +23,6 @@ body {
 }
 #moitiePageGauche {
     width: 1440px;
-  height: 800px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 .rectSelect {
@@ -34,10 +33,9 @@ body {
         border-bottom: solid 8px green;
 }
 #sectionClubs {
-    height: 672px;
     border-radius: 20px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-    background-color: var(--white);
+    background-color: var(--white);   
 }
 #searchBar {
   padding-top: 80px;
@@ -65,3 +63,77 @@ body {
     margin-top: 16px;
     background-color: grey;
   }
+#blocLogos {
+    padding-top: 9.4%;
+}
+.ligneClub {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.4%;
+}
+.blocClub {
+    width : 188px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 0.9px black;
+    background-color: white;
+    transition: 0.1s ease-out;
+
+}
+.blocClub:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.blocClub img {
+    width : 40px;
+    height: 47px;
+    padding-top: 48px;
+    padding-bottom: 10px;
+}
+.blocClub p {
+    padding-bottom: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: purple;
+}
+
+
+
+.moitiePageDroite {
+    width: 480px;
+  background-color: purple;
+}
+.Logotype-Premier-League {
+    width: 67.6px;
+    height: 104px;
+    padding-top: 76px;
+    object-fit: contain;
+    background-color: var(--minty-green);
+    display: block;
+    margin: auto;
+  }
+
+.tables {
+    width: 289px;
+    height: 64px;
+    position: relative;
+    top: -20px;
+    opacity: 0.1;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: var(--white);
+    text-align: left;
+    padding-left: 20.4%;
+    padding-right: 19.6%;
+
+}

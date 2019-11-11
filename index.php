@@ -45,56 +45,56 @@
                     <div id="blocLogos">
                         <div class="ligneClub">
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                        </div>
-                        <div class="ligneClub">
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                         </div>
                         <div class="ligneClub">
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                        <div class="blocClub">
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                            </div>
+                        </div>
+                        <div class="ligneClub">
+                        <div class="blocClub">
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                            </div>
+                            <div class="blocClub">
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                            </div>
+                            <div class="blocClub">
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                            </div>
+                            <div class="blocClub">
+                                <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
                             </div>
                         </div>
                         <div class="ligneClub">
@@ -121,7 +121,13 @@
         </div> <!-- fin moitie gauche !-->
         <div class="moitiePageDroite">
             <div class="wrap">
-
+                <div class="choixLeagueLogo">
+                <img src="image/logotype-premier-league.png"
+                    srcset="image/logotype-premier-league@2x.png 2x,
+                            image/logotype-premier-league@3x.png 3x"
+                    class="Logotype-Premier-League">
+                </div>
+                <h1 class="tables">Tables</h1>
             </div>
         </div>
     </div>    
