@@ -22,15 +22,15 @@ body {
     flex-direction: column;
 }
 #moitiePageGauche {
-    width: 1440px;
+  width: 67%;
   background-color: rgba(0, 0, 0, 0.1);
 }
 .rectSelect {
-        width: 41px;
-        height: 8px;
-        margin-top: 24px;
-        background-color: var(--minty-green);
-        border-bottom: solid 8px green;
+    width: 41px;
+    height: 8px;
+    margin-top: 24px;
+    background-color: var(--minty-green);
+    border-bottom: solid 8px green;
 }
 #sectionClubs {
     border-radius: 20px;
@@ -65,14 +65,18 @@ body {
   }
 #blocLogos {
     padding-top: 9.4%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
 }
 .ligneClub {
     display: flex;
     justify-content: space-between;
     padding-bottom: 2.4%;
 }
-.blocClub {
-    width : 188px;
+.blocClub { 
     text-align: center;
     border-radius: 10px;
     border: solid 0.9px black;
@@ -80,6 +84,7 @@ body {
     transition: 0.1s ease-out;
 
 }
+
 .blocClub:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 }
@@ -105,7 +110,7 @@ body {
 
 
 .moitiePageDroite {
-    width: 480px;
+  width: 33%;
   background-color: purple;
 }
 .Logotype-Premier-League {

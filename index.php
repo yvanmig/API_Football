@@ -36,85 +36,44 @@
                         <span class="rectSelect"></span>
                     </div>
                 </div>
+        </div>
+        <!-- Fin wrap -->
+
                 <div id="sectionClubs">
+                    <div class="wrap">
                     <div id="searchBar">
                         <h1>Search club</h1>
                         <img src="image/loupe.png" alt="">
                     </div>
                     <div class="Rectangle"></div>
                     <div id="blocLogos">
-                        <div class="ligneClub">
+
                             <div class="blocClub">
                                 <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
+                                <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
                                 <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
+                                <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
                                 <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                        </div>
-                        <div class="ligneClub">
-                        <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
+                                <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
                                 <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
+                                <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
                                 <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
+                                <p>Arsenal</p>
                             </div>
                             <div class="blocClub">
                                 <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                        </div>
-                        <div class="ligneClub">
-                        <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                            </div>
-                        </div>
-                        <div class="ligneClub">
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="" alt="">
-                                    <p></p>
-                            </div>
-                        </div>                
+                                <p>Arsenal</p>
+                            </div>  
+
+               
                     </div> 
                 </div>
             </div> <!-- fin wrap !-->
