@@ -41,40 +41,48 @@
 
                 <div id="sectionClubs">
                     <div class="wrap">
-                    <div id="searchBar">
-                        <h1>Search club</h1>
-                        <img src="image/loupe.png" alt="">
-                    </div>
-                    <div class="Rectangle"></div>
-                    <div id="blocLogos">
+                        <!-- <div id="searchBar">
+                            <input type="text" value="Search club">
+                            <h1>Search club</h1>
+                            <img src="image/loupe.png" alt="">
+                        </div> -->
+                        <div id="searchBar">
+                        <form action="/action_page.php">
+      <input type="text" placeholder="Search club" name="search">
+      <button type="submit"><img src="image/loupe.png" alt="Recherche club"></button>
+    </form>
+                        </div>
 
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                <p>Arsenal</p>
-                            </div>
-                            <div class="blocClub">
-                                <img src="image/arsenal.png" alt="">
-                                <p>Arsenal</p>
-                            </div>  
 
-               
-                    </div> 
+                        <div class="Rectangle"></div>
+                        <div id="blocLogos">
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>  
+
+                
+                        </div> 
                 </div>
             </div> <!-- fin wrap !-->
         </div> <!-- fin moitie gauche !-->

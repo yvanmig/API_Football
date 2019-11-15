@@ -142,3 +142,24 @@ body {
     padding-right: 19.6%;
 
 }
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    background-color: transparent;
+    border: none;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
