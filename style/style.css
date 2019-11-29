@@ -1,5 +1,5 @@
 body {
-    
+    overflow: hidden;
 }
 .wrap {
     margin-left: 7.5%;
@@ -20,6 +20,17 @@ body {
     padding-right: 80px;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+.league::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 34%;
+    height: 8px;
+    background: green;
 }
 #moitiePageGauche {
   width: 67%;
@@ -28,14 +39,16 @@ body {
 .rectSelect {
     width: 41px;
     height: 8px;
-    margin-top: 24px;
     background-color: var(--minty-green);
     border-bottom: solid 8px green;
+    position: absolute;
+    bottom: 0;
 }
 #sectionClubs {
     border-radius: 20px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     background-color: var(--white);   
+    height: 672px;
 }
 #searchBar {
   padding-top: 80px;
@@ -57,6 +70,28 @@ body {
     width: 32px;
     align-self: flex-end;
 }
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    background-color: transparent;
+    border: none;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+
 
 .Rectangle {
     height: 1px;
@@ -67,9 +102,10 @@ body {
     padding-top: 9.4%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 16px;
     grid-row-gap: 16px;
+    overflow: auto;
+    height: 512px;
 }
 .ligneClub {
     display: flex;
@@ -111,7 +147,10 @@ body {
 
 .moitiePageDroite {
   width: 33%;
+  height: 100vh;
   background-color: purple;
+  position: relative;
+  overflow: auto;
 }
 .Logotype-Premier-League {
     width: 67.6px;
@@ -132,34 +171,74 @@ body {
     font-family: Roboto;
     font-size: 60px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.07;
-    letter-spacing: normal;
     color: var(--white);
     text-align: left;
     padding-left: 20.4%;
     padding-right: 19.6%;
+    padding-bottom: 16px;
 
 }
-form {
-    width: 100%;
+#containerLignes {
+    width: 70%;
+    margin: 0 15% 0 15%;
+    font-family: Roboto;
+  font-size: 14px;
+  color: white;
+}
+#containerLignes hr {
+    background-color: rgba(204, 104, 243, 0.2);
+}
+.ligne {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    text-align : center;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-input {
-    background-color: transparent;
-    border: none;
-    font-family: Roboto;
-    font-size: 60px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.07;
-    letter-spacing: normal;
+
+.numeroLigne {
+    width: 10%;
+    text-align : center;
 }
-button {
-    background-color: transparent;
-    border: none;
+.blocOval {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.oval {
+    width : 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+}
+.imageLigne {
+    width: 10%;
+}
+
+.imageLigne img {
+    width : 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+}
+
+.nomLigne {
+    width: 20%;
+}
+.scoreLigne {
+    width: 55%;
+    text-align: right;
+}
+
+.filtreViolet {
+    background-color: purple;
+    opacity: 0.6;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

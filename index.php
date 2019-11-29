@@ -17,26 +17,28 @@
                         <div>
                         <img src="image/premier_league.png" alt="Logo premier league">
                         </div>
-                        <span class="rectSelect"></span>
+                        <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
                         <img src="image/premier_league.png" alt="Logo premier league">
-                        <span class="rectSelect"></span>
+                        <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
                     <img src="image/premier_league.png" alt="Logo premier league">
-                        <span class="rectSelect"></span>
+                        <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
                         <img src="image/premier_league.png" alt="Logo premier league">
-                        <span class="rectSelect"></span>
+                        <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
                         <img src="image/premier_league.png" alt="Logo premier league">
-                        <span class="rectSelect"></span>
+                        <!-- <span class="rectSelect"></span> -->
                     </div>
                 </div>
-        </div>
+
+
+            </div>
         <!-- Fin wrap -->
 
                 <div id="sectionClubs">
@@ -80,6 +82,54 @@
                                     <img src="image/arsenal.png" alt="">
                                     <p>Arsenal</p>
                                 </div>  
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>  
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>
+                                <div class="blocClub">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>  
 
                 
                         </div> 
@@ -95,7 +145,115 @@
                     class="Logotype-Premier-League">
                 </div>
                 <h1 class="tables">Tables</h1>
-            </div>
+                <div id="containerLignes">
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                </div> <!-- fin container ligne-->
+                
+
+
+            </div> <!-- fin wrap -->
+            <div class="filtreViolet">
+                    
+                </div>
         </div>
     </div>    
 
