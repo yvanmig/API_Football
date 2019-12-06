@@ -256,6 +256,25 @@
                 </div>
         </div>
     </div>    
+    <div id="containerPage2">
+        <div id="moitieGauche2">
+            <div id="boutonFermer">
+            </div>
+        </div>
+        <div id="moitieDroite2">
+            <div id="presentationClub">
+                <div class="imagePresentation">
+                <img src="" alt="">
+                </div>
+                <div class="descriptionClub">
+                    <h2>Arsenal</h2>
+                    <p>Emirate Stadium</p>
+                    <p><span class="descriptionBold">Official website : </span> www.arsenal.com</p>+
+                    <p><span class="descriptionBold">Head Coach : </span> Unai Emery</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="script/jquery.js"></script>
     <script type="text/javascript" src="script/script.js"></script>
