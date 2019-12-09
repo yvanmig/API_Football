@@ -266,6 +266,7 @@
             <div class="wrap2">
                 <div id="presentationClub">
                     <div class="imagePresentation">
+                    <img src="image/arsenal.png" alt="">
                     </div>
                     <div class="descriptionClub">
                         <h2>Arsenal</h2>
