@@ -252,8 +252,57 @@ button {
     z-index: 10;
     display: flex;
 }
+#moitieDroite2 {
+    width: 1152px;
+}
 #moitieGauche2 {
     width: 288px;
     height: 100vh;
     background-color: purple;  
+}
+.wrap2 {
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#presentationClub {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 97px;
+}
+.imagePresentation {
+    width: 130px;
+    height: 150px;
+    padding-right: 80px;
+}
+.imagePresentation img {
+    width: 100%;
+    height: auto;
+}
+.descriptionClub h2 {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.descriptionClub p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #37003c;
+}
+.descriptionBold {
+    font-weight: bold;
+}
+#searchBar2 {
+    color :#e8e8e8;
+    padding-bottom: 16px;
+}
+#containerHeaderGrid {
+    display: flex;
+    justify-content: space-between;
 }

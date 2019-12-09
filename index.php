@@ -256,23 +256,40 @@
                 </div>
         </div>
     </div>    
+    <!-- Deuxième page -->
     <div id="containerPage2">
         <div id="moitieGauche2">
             <div id="boutonFermer">
             </div>
         </div>
         <div id="moitieDroite2">
-            <div id="presentationClub">
-                <div class="imagePresentation">
-                <img src="" alt="">
+            <div class="wrap2">
+                <div id="presentationClub">
+                    <div class="imagePresentation">
+                    </div>
+                    <div class="descriptionClub">
+                        <h2>Arsenal</h2>
+                        <p>Emirate Stadium</p>
+                        <p><span class="descriptionBold">Official website : </span> www.arsenal.com</p>
+                        <p><span class="descriptionBold">Head Coach : </span> Unai Emery</p>
+                    </div>
                 </div>
-                <div class="descriptionClub">
-                    <h2>Arsenal</h2>
-                    <p>Emirate Stadium</p>
-                    <p><span class="descriptionBold">Official website : </span> www.arsenal.com</p>+
-                    <p><span class="descriptionBold">Head Coach : </span> Unai Emery</p>
+                <div id="searchBar2">
+                        <form action="/action_page.php">
+                        <input type="text" placeholder="Search player" name="search">
+                        <button type="submit"><img src="image/loupe.png" alt="Recherche club"></button>
+                        </form>
+                </div>
+                <hr>
+                <div id="containerHeaderGrid">
+                    <div id="numberPlayer">#</div>
+                    <div id="namePlayer">Name</div>
+                    <div id="nationalityPlayer">Nationality</div>
+                    <div id="birthPlayer">Date of birth</div>
+                    <div id="positionPlayer">Position</div>
                 </div>
             </div>
+            
         </div>
     </div>
 
