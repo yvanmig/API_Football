@@ -5,6 +5,9 @@ body {
     margin-left: 7.5%;
     margin-right: 6.1%;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 #containerPage {
     display: flex;
 }
@@ -239,9 +242,7 @@ button {
     bottom: 0;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+
 #containerPage2 {
     position: absolute;
     top: 0;
@@ -250,7 +251,7 @@ button {
     width: 100%;
     background-color: white;
     z-index: 10;
-    display: flex;
+    display: none;
 }
 #moitieDroite2 {
     width: 1152px;
