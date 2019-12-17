@@ -157,6 +157,16 @@
                         <div class="scoreLigne">27 pts</div>
                     </div>
                     <hr>
+                    <!-- <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div> -->
+                    <!-- <hr>
                     <div class="ligne">                        
                         <div class="numeroLigne">1</div>
                         <div class="blocOval">
@@ -235,17 +245,7 @@
                         <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
                         <div class="nomLigne">Arsenal</div>
                         <div class="scoreLigne">27 pts</div>
-                    </div>
-                    <hr>
-                    <div class="ligne">                        
-                        <div class="numeroLigne">1</div>
-                        <div class="blocOval">
-                            <div class="oval"></div>
-                        </div>                        
-                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
-                        <div class="nomLigne">Arsenal</div>
-                        <div class="scoreLigne">27 pts</div>
-                    </div>
+                    </div> -->
                 </div> <!-- fin container ligne-->
                 
 
@@ -296,5 +296,7 @@
 
     <script type="text/javascript" src="script/jquery.js"></script>
     <script type="text/javascript" src="script/script.js"></script>
+    <script src="script/mustache.js"></script>
+    <script src="script/mustache.min.js"></script>
 </body>
 </html>
