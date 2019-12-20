@@ -31,3 +31,5 @@ var settings = {
                     //     <div class="scoreLigne">27 pts</div>
                     // </div>
   });
+
+
