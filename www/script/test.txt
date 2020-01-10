@@ -1,7 +1,7 @@
 <script id="tpl-greeting" type="text/html">
     <dl>
         <dt>Name</dt>
-        <dd>{{name}}</dd>
+        <dd>{{nameClub}}</dd>
         <dt>Time</dt>
         <dd>{{timeNow}}</dd>
     </dl>

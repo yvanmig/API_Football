@@ -14,7 +14,7 @@
     <div id="target">Loading...</div>
     </div>  
     <script id="template" type="x-tmpl-mustache">
-    Hello {{ name }}!
+    Hello {{ nameClub }}!
   
     </script>
 

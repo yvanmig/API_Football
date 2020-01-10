@@ -93,27 +93,61 @@ var templateData;
 
   
 
+
+
+
+
   var settings = {
     "async": true,
-    "crossDomain": true,
-    "url": "http://api.football-data.org/v2/competitions/2021/standings",
+    "url": "script/requetes/league.php",
     "method": "GET",
-    "headers": {
-      "x-auth-token": "6a895e1cccb14f07b90701ec3a5dc38a"
-    }
   }
 
   $.ajax(settings).done(function (response) {
-    console.log(typeof response);
-  // response = JSON.parse(response);
+    console.table( response);
+   response = JSON.parse(response);
   var teams_data = [];
     $(response.teams).each(function(i){
       teams_data[i] = {
-        "nameClub":this.shortName,
+        // "nameClub":this.shortName,
+        "nameClub":"bonjour",
         "logoClub":this.crestUrl,
-        "nbClub":i, //lien vers le slider
       }
       
     });
     console.table(teams_data);
+    $.get('script/test.txt', function(template) {
+      var rendered = Mustache.render(template, {teams : teams_data});
+      $('#target').html(rendered);
+    });
   });
+
+
+  // var settings = {
+  //   "async": true,
+  //   "crossDomain": true,
+  //   "url": "http://localhost/premierleague/www/html/request_standings.php",
+  //   "method": "GET",
+
+  // }
+
+  // $.ajax(settings).done(function (response) {
+  //   response = JSON.parse(response);
+  //   var standings_data = [];
+  //   $(response.standings[0].table).each(function(i){
+  //    standings_data[i] = {
+  //     "nameclub":this.team.name,
+  //     "logoclub":this.team.crestUrl,
+  //     "point":this.points,
+  //     "place":this.position
+
+  //   }
+
+  // });
+  //   console.log(standings_data);
+
+  //   $.get('../templates/standings/standings.mst', function(template) {
+  //     var rendered = Mustache.render(template, {standings: standings_data});
+  //     $('.team').html(rendered);
+  //   });
+  // });
