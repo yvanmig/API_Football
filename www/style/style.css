@@ -207,6 +207,8 @@ button {
     width: 5%;
     display: flex;
     justify-content: center;
+    padding-left: 16px;
+    padding-right: 19px;
 }
 .oval {
     width : 4px;
@@ -226,7 +228,9 @@ button {
 }
 
 .nomLigne {
-    width: 20%;
+    width: 100%;
+    text-align: left;
+    padding-left: 11px;
 }
 .scoreLigne {
     width: 55%;
