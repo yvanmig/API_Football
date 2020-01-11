@@ -53,10 +53,7 @@
 
                         <div class="Rectangle"></div>
                         <div id="blocLogos">
-                                <div class="blocTeam">
-                                    <img src="image/arsenal.png" alt="">
-                                    <p>Arsenal</p>
-                                </div>                          
+                        
 
                 
                         </div> 
@@ -83,6 +80,7 @@
     <div id="containerPage2">
         <div id="moitieGauche2">
             <div id="boutonFermer">
+                <img src="image/cross.svg" alt="">
             </div>
         </div>
         <div id="moitieDroite2">

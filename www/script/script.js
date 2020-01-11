@@ -23,6 +23,9 @@ $.ajax(settings).done(function (response)
             }
       });
       //Chercher le template qui va nous permettre de générer du code
+// Version en ligne
+      // $.get('script/templates/teams.mst', function (template)
+// Version hors ligne
       $.get('../www/script/templates/teams.mst', function (template)
       {
         // On prépare la variable à l'aide de mustache, en passant le template et nos données en paramètres
@@ -57,9 +60,28 @@ $.ajax(settingsRank).done(function (response)
         }
 
   });
+//   Version en ligne
+//   $.get('script/templates/rank.mst', function (template)
+// Verison hors ligne
   $.get('../www/script/templates/rank.mst', function (template)
   {
         var rendered = Mustache.render(template, { standings: standings_data });
         $('#containerLignes').html(rendered);
   });
 });
+
+//Afficher la deuxième page lors d'un click sur l'un des clubs
+$("#blocLogos").on("click", ".blocClub", function(){
+      // $("#containerPage").hide();
+      $("#containerPage2").css("z-index" , "50");
+      // $("#containerPage2").css("display" , "flex");
+  });
+  //Fermer la deuxième page
+  $('#boutonFermer').click(function(){
+      // $("#containerPage2").hide();
+      // $("#containerPage").show();
+      $("#containerPage2").css("z-index" , "-5");
+      
+  });
+
+
