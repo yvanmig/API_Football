@@ -1,6 +1,6 @@
-
+{{ #teams }}
     <div class="blocClub">
         <img src="{{logoTeam}}">
         <p>{{nameTeam}}</p>
     </div>                        
-
+{{ /teams}}

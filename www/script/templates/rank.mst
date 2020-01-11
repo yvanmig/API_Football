@@ -1,11 +1,12 @@
-<hr>        
-    <div class="ligne">                        
-        <div class="numeroLigne">{{positionTeam}}</div>
-        <div class="blocOval">
-            <div class="oval"></div>
-        </div>                        
-        <div class="imageLigne"><img src="{{logoTeam}}"></div>
-        <div class="nomLigne">{{nameTeam}}</div>
-        <div class="scoreLigne">{{pointsTeam}}</div>
-    </div>
-
+{{#standings}}
+    <hr>        
+        <div class="ligne">                        
+            <div class="numeroLigne">{{positionTeam}}</div>
+            <div class="blocOval">
+                <div class="oval"></div>
+            </div>                        
+            <div class="imageLigne"><img src="{{logoTeam}}"></div>
+            <div class="nomLigne">{{nameTeam}}</div>
+            <div class="scoreLigne">{{pointsTeam}}</div>
+        </div>
+ {{ /standings}}

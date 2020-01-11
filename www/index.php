@@ -43,14 +43,26 @@
 
                 <div id="sectionClubs">
                     <div class="wrap">
+                        <!-- <div id="searchBar">
+                            <input type="text" value="Search club">
+                            <h1>Search club</h1>
+                            <img src="image/loupe.png" alt="">
+                        </div> -->
                         <div id="searchBar">
                         <form action="/action_page.php">
       <input type="text" placeholder="Search club" name="search">
       <button type="submit"><img src="image/loupe.png" alt="Recherche club"></button>
     </form>
                         </div>
+
+
                         <div class="Rectangle"></div>
                         <div id="blocLogos">
+                                <div class="blocTeam">
+                                    <img src="image/arsenal.png" alt="">
+                                    <p>Arsenal</p>
+                                </div>                          
+
                 
                         </div> 
                 </div>
@@ -66,7 +78,106 @@
                 </div>
                 <h1 class="tables">Tables</h1>
                 <div id="containerLignes">
-
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <!-- <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div> -->
+                    <!-- <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div>
+                    <hr>
+                    <div class="ligne">                        
+                        <div class="numeroLigne">1</div>
+                        <div class="blocOval">
+                            <div class="oval"></div>
+                        </div>                        
+                        <div class="imageLigne"><img src="image/arsenal.png" alt=""></div>
+                        <div class="nomLigne">Arsenal</div>
+                        <div class="scoreLigne">27 pts</div>
+                    </div> -->
                 </div> <!-- fin container ligne-->
                 
 
