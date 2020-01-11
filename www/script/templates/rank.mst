@@ -7,6 +7,6 @@
             </div>                        
             <div class="imageLigne"><img src="{{logoTeam}}"></div>
             <div class="nomLigne">{{nameTeam}}</div>
-            <div class="scoreLigne">{{pointsTeam}}</div>
+            <div class="scoreLigne">{{pointsTeam}} pts</div>
         </div>
  {{ /standings}}
