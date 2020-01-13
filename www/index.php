@@ -46,13 +46,8 @@
                         <div id="searchBar">
       <input type="text" placeholder="Search club" name="search">
                         </div>
-
-
                         <div class="Rectangle"></div>
-                        <div id="blocLogos">
-                        
-
-                
+                        <div id="blocLogos">                           
                         </div> 
                 </div>
             </div> <!-- fin wrap !-->
@@ -98,11 +93,18 @@
                 </div>
                 <hr>
                 <div id="containerHeaderGrid">
-                    <div id="numberPlayer">#</div>
-                    <div id="namePlayer">Name</div>
-                    <div id="nationalityPlayer">Nationality</div>
-                    <div id="birthPlayer">Date of birth</div>
-                    <div id="positionPlayer">Position</div>
+                    <div id="numberPlayerH">#</div>
+                    <div id="namePlayerH">Name</div>
+                    <div id="nationalityPlayerH">Nationality</div>
+                    <div id="birthPlayerH">Date of birth</div>
+                    <div id="positionPlayerH">Position</div>
+                </div>
+                <div class="gridPlayer">
+                    <div class="numberPlayer"> <img src="image/maillot.svg" alt=""> 1</div>
+                    <div class="namePlayer">Bernd Leno</div>
+                    <div class="nationalityPlayer">Germany</div>
+                    <div class="birthPlayer">04/03/1992 (27)</div>
+                    <div class="positionPlayer">Goalkeeper</div>
                 </div>
             </div>
             

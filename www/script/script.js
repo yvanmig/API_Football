@@ -72,11 +72,13 @@ $.ajax(settingsRank).done(function (response)
 
 //Afficher la deuxième page lors d'un click sur l'un des clubs
 $("#blocLogos").on("click", ".blocClub", function(){
-      $("#containerPage2").css("z-index" , "50");
+      $("#containerPage2").addClass("apparition");
+      $("#containerPage2").removeClass("disparition");
   });
   //Fermer la deuxième page
-  $('#boutonFermer').click(function(){
-      $("#containerPage2").css("z-index" , "-5");      
+  $('#boutonFermer').click(function(){  
+      $("#containerPage2").removeClass("apparition");
+      $("#containerPage2").addClass("disparition");
   });
 
 

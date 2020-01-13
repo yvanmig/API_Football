@@ -263,11 +263,37 @@ button {
     left: 0;
     height: 100vh;
     width: 100%;
-    z-index: -5;
-    /* display: none; */
+    z-index: 20;
     display: flex;
     background: transparent;
+    transform: translateX(100%);
+    transition : all 2s;
     
+}
+.apparition {
+    /* transform: translateX(0%); */
+    /* z-index: 50; */
+    animation: pageAppear 0.5s forwards cubic-bezier(.17,.67,.56,.95);
+}
+.disparition {
+    animation: pageDisappear 0.5s forwards cubic-bezier(.17,.67,.56,.95);
+}
+
+@keyframes pageAppear {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);        
+    }
+}
+@keyframes pageDisappear {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);        
+    }
 }
 #moitieDroite2 {
     width: 100%;
@@ -330,4 +356,15 @@ button {
     align-content: center;
     text-align: center;
     padding-top: 360px;
+}
+
+.gridPlayer {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    line-height: 72px;
+}
+.numberPlayer img{
+    display: inline;
+    vertical-align: middle;
 }
