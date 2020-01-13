@@ -13,26 +13,26 @@
         <div id="moitiePageGauche">
             <div class="wrap">
                 <div id="selectionLeague">
-                    <div class="league">
+                    <div class="league" id="leagueActive">
                         <div>
                         <img src="image/premier_league.png" alt="Logo premier league">
                         </div>
                         <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
-                        <img src="image/premier_league.png" alt="Logo premier league">
+                        <img src="image/logotype-ligue-1.png" alt="Logo premier league">
                         <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
-                    <img src="image/premier_league.png" alt="Logo premier league">
+                    <img src="image/laliga.png" alt="Logo premier league">
                         <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
-                        <img src="image/premier_league.png" alt="Logo premier league">
+                        <img src="image/logotype-serie-a.svg" alt="Logo premier league">
                         <!-- <span class="rectSelect"></span> -->
                     </div>
                     <div class="league">
-                        <img src="image/premier_league.png" alt="Logo premier league">
+                        <img src="image/logotype-bundesliga.svg" alt="Logo premier league">
                         <!-- <span class="rectSelect"></span> -->
                     </div>
                 </div>
@@ -44,10 +44,7 @@
                 <div id="sectionClubs">
                     <div class="wrap">
                         <div id="searchBar">
-                        <form action="/action_page.php">
       <input type="text" placeholder="Search club" name="search">
-      <button type="submit"><img src="image/loupe.png" alt="Recherche club"></button>
-    </form>
                         </div>
 
 
@@ -97,10 +94,7 @@
                     </div>
                 </div>
                 <div id="searchBar2">
-                        <form action="/action_page.php">
-                        <input type="text" placeholder="Search player" name="search">
-                        <button type="submit"><img src="image/loupe.png" alt="Recherche club"></button>
-                        </form>
+                    <input type="text" placeholder="Search player" name="search">
                 </div>
                 <hr>
                 <div id="containerHeaderGrid">

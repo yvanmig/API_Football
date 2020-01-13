@@ -72,16 +72,23 @@ $.ajax(settingsRank).done(function (response)
 
 //Afficher la deuxième page lors d'un click sur l'un des clubs
 $("#blocLogos").on("click", ".blocClub", function(){
-      // $("#containerPage").hide();
       $("#containerPage2").css("z-index" , "50");
-      // $("#containerPage2").css("display" , "flex");
   });
   //Fermer la deuxième page
   $('#boutonFermer').click(function(){
-      // $("#containerPage2").hide();
-      // $("#containerPage").show();
-      $("#containerPage2").css("z-index" , "-5");
-      
+      $("#containerPage2").css("z-index" , "-5");      
   });
 
+
+
+
+// Fonction pour chercher le nom d'un club en instantané avec la barre de recherche
+  $("#searchBar input").on("keyup", function()
+  {
+    var value = $(this).val().toLowerCase();
+    $(".blocClub").filter(function()
+    {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
 

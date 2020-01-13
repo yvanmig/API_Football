@@ -27,7 +27,11 @@ body {
     flex-direction: column;
     position: relative;
 }
-.league::after {
+.league img {
+    height: 80%;
+    filter: grayscale(1);
+}
+#leagueActive::after {
     position: absolute;
     content: '';
     bottom: 0;
@@ -263,13 +267,8 @@ button {
     /* display: none; */
     display: flex;
     background: transparent;
+    
 }
-/* .appear {
-    height: 100vh;
-}
-.disappear {
-    height: 0;
-} */
 #moitieDroite2 {
     width: 100%;
     margin: 0 auto;
